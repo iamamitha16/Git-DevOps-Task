@@ -37,7 +37,7 @@ Git-DevOps/
 └── README.md
 ```
 
-Version Control Workflow:
+## Version Control Workflow
 This project follows a structured Git workflow.
 Branches
 - main - Stable production-ready branch
@@ -52,7 +52,8 @@ Development Process
 6. Review and merge the Pull Request into dev.
 7. Merge the tested changes into main.
 8. Create a Git tag for the project version.
-Git Workflow
+
+## Git Workflow
 The project uses the following workflow:
 main
   |
@@ -70,7 +71,7 @@ main
   |
   v1.0
 
-Git Concepts Demonstrated:
+## Git Concepts Demonstrated
 - Git repository initialization
 - Git commits
 - Branching
@@ -81,24 +82,29 @@ Git Concepts Demonstrated:
 - Git tags
 - Markdown documentation
 
-Screenshots
+## Screenshots
 1. Git Branches:
 The following screenshot shows the remote GitHub branches:
 - main
 - dev
 - feature/add-project-info
- 
+![Git Branches](screenshots/branches.png)
+
 2. Pull Request - Feature to Dev:
 This screenshot shows Pull Request #1, where the feature branch was merged into the dev branch.
- 
+![Pull Request - Feature to Dev](screenshots/pr-feature-to-dev.png)
+
 3. Pull Request - Dev to Main:
 This screenshot shows Pull Request #2, where the dev branch was merged into the main branch.
- 
+![Pull Request - Dev to Main](screenshots/pr-dev-to-main.png)
+
 4. Git Tag:
 The following screenshot shows the creation and push of the v1.0 Git tag.
- 
+![Git Tag v1.0](screenshots/git-tag-v1.0.png)
+
 5. Final Git Status:
 The following screenshot shows that the local main branch is synchronized with origin/main and the working tree is clean.
- 
-Conclusion:
+![Final Git Status](screenshots/final-git-status.png)
+
+## Conclusion
 This project demonstrates how Git and GitHub can be used to manage source code using a structured version-control workflow. The project includes branching, commits, feature development, Pull Requests, merging, .gitignore, Git tags, and Markdown documentation.
