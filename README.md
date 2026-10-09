@@ -27,16 +27,16 @@ Git-DevOps/
 │   └── git-workflow.md
 │
 ├── screenshots/
-│   ├── 01-branches.png
-│   ├── 02-pr-feature-to-dev.png
-│   ├── 03-pr-dev-to-main.png
-│   ├── 04-git-tag.png
-│   └── 05-git-status.png
+│   ├── branches.png
+│   ├── pr-feature-to-dev.png
+│   ├── pr-dev-to-main.png
+│   ├── git-tag-v1.0.png
+│   └── final-git-status.png
 │
 ├── .gitignore
 └── README.md
+```
 
-````text
 Version Control Workflow:
 This project follows a structured Git workflow.
 Branches
@@ -52,8 +52,7 @@ Development Process
 6. Review and merge the Pull Request into dev.
 7. Merge the tested changes into main.
 8. Create a Git tag for the project version.
-
-Git Workflow:
+Git Workflow
 The project uses the following workflow:
 main
   |
@@ -82,7 +81,7 @@ Git Concepts Demonstrated:
 - Git tags
 - Markdown documentation
 
-Screenshots:
+Screenshots
 1. Git Branches:
 The following screenshot shows the remote GitHub branches:
 - main
