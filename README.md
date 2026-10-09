@@ -1,11 +1,9 @@
 # Git DevOps Project
 
 ## DevOps Internship - Task 4
-
 This project demonstrates version control and GitHub workflow practices using Git.
 
 ## Objective
-
 The objective of this task is to manage a DevOps project using Git best practices.
 
 ## Tools Used
@@ -30,9 +28,28 @@ Git-DevOps/
 │
 └── README.md
 
+## Version Control Workflow:
 
+This project follows a structured Git workflow.
+
+### Branches
+
+- `main` - Stable production-ready branch
+- `dev` - Development branch
+- `feature/add-project-info` - Feature development branch
+
+### Development Process
+
+1. Create a feature branch from `dev`.
+2. Make changes in the feature branch.
+3. Commit the changes.
+4. Push the feature branch to GitHub.
+5. Create a Pull Request.
+6. Review and merge the Pull Request into `dev`.
+7. Merge the tested changes into `main`.
 Git Workflow:
 The project uses the following workflow:
+
 main
   |
   dev
